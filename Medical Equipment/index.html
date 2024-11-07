@@ -6,6 +6,7 @@
     <title>Medical Equipment</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
 <body>
     <!--Header-->
@@ -16,7 +17,7 @@
                Med
             </span>
             <!--Menu-->
-            <button class="navbar-toggler" type="button" data-bs-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -25,19 +26,19 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Products</a>
+                        <a class="nav-link" href="product.html">Products</a>
                     </li>
                     <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Download</a>
+                        <a class="nav-link" href="download.html">Download</a>
                     </li>
                     <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Reviews</a>
+                        <a class="nav-link" href="reviews.html">Reviews</a>
                     </li>
                     <li class="nav-item me-5">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -170,9 +171,81 @@
             </div>
         </div>
     </div>
+    <!-- Animation -->
+<div class="container my-5">
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/10.jpg" class="d-block w-100 img-fluid" style="height: 400px; object-fit: contain;" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/11.jpg" class="d-block w-100 img-fluid" style="height: 400px; object-fit: contain;" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/12.jpg" class="d-block w-100 img-fluid" style="height: 400px; object-fit: contain;" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="img/16.jpg" class="d-block w-100 img-fluid" style="height: 400px; object-fit: contain;" alt="Image 4">
+            </div>
+        </div>
 
+        <!--Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon text-primary" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next text-primary" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+    <!--Footer-->
+
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-success">About Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
+                        <li><a href="https://getbootstrap.com/" class="text-light text-decoration-none">Company Honor</a></li>
+                        <li><a href="https://www.iso.org/" class="text-light text-decoration-none">Certifications</a></li>
+                        <li><a href="https://www.iso.org/" class="text-light text-decoration-none">Exhibition</a></li>
+                        <li><a href="https://www.iso.org/" class="text-light text-decoration-none">Family Photo Album</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h5 class="text-success">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-geo-alt-fill"></i> 2nd Floor, Building C, Wanlima Industrial Park,<br>No.188, Xinye Road, Haizhu District,<br>Guangzhou, 510000, PRC</li>
+                        <li><i class="bi bi-telephone-fill"></i> TEL: +011-189-9843-2898</li>
+                        <li><i class="bi bi-phone-fill"></i> MOB: +251-02-341-7448</li>
+                        <li><i class="bi bi-envelope-fill"></i> E-mail: info@stem_medica.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-light">
+            <div class="text-center my-4">
+                <img src="img/logo.jpg" alt="Logo" style="width: 100px;">
+                <div class="mt-3">
+                    <a href="https://web.facebook.com/"><i class="bi bi-facebook text-light mx-2"></i></a>
+                    <a href="https://x.com/"><i class="bi bi-twitter text-light mx-2"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="bi bi-linkedin text-light mx-2"></i></a>
+                    <a href="https://www.instagram.com/"><i class="bi bi-instagram text-light mx-2"></i></a>
+                    <a href="https://www.instagram.com/"><i class="bi bi-youtube text-light mx-2"></i></a>
+                </div>
+            </div>
+            <p class="text-center">
+                Guangzhou Yueshen Medical Equipment Co., Ltd. © All Rights Reserved<br>
+                Links: <a href="https://www.made-in-china.com/" class="text-light text-decoration-none">Medical Equipment</a>| <a href="#" class="text-light text-decoration-none">Équipement Médical </a> | <a href="#" class="text-light text-decoration-none">Medical X-ray Machine </a>|<a href="#" class="text-light text-decoration-none"> Ultrasound Scanner </a>
+            </p>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
